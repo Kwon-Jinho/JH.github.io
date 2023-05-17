@@ -1,73 +1,15 @@
-/*
-Name: Gildong Hong
-Date: April 1, 2023
-Section: IAB 6068
-This is the styles.css page for my portfolio of web development
-work.
-It is used by all pages in my portfolio to give the site a
-consistent
-look and feel.
-*/
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  color: #333;
-  background-color: #eee;
-}
-
-nav {
-  background-color: #444;
+/* styles.css */
+button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
   color: #fff;
-}
+  border-radius: 0.25rem;
+  cursor: pointer;
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px;
-  transition: background-color 0.2s ease;
-}
-
-nav a:hover {
-  background-color: #666;
-}
-
-header {
-  text-align: center;
-  padding: 50px 0;
-}
-
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  margin: 0 0 20px 0;
-}
-
-p {
-  line-height: 1.5;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #444;
-  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
